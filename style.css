@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"TT Hoves";
+    color: #222;
+}
+.containerBlock{
+    margin:0 121px;
+}
+.logo{
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+.courseInfo{
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+.title{
+    font-size: 21px;
+    line-height: 140%;
+}
+.subtitle{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 140%;
+}
+h1{
+    font-family: "Chava";
+    font-size: 80px;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+.text{
+    max-width: 930px;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.btnContainer{
+    display: flex;
+    gap: 30px;
+}
+.btn{
+    width: 328px;
+    padding: 20px 0;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #6E3ABA;
+}
+.primary{
+background-color: #6E3ABA ;
+color: #fff;
+}
+.secondary{
+    color: #6E3ABA;
+    background-color: #fff;
+}
+.uwu{
+    width: 1280px;
+    height: 1252px;
+}
+.lalalaku{
+    margin-top: 160px;
+    margin-left: 120px;
+    margin-right: 391px;
+    color: var(--typo-black, #222);
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    width: 769px;
+}
+.memo1{
+    width: 254px;
+    height: 254px;
+    flex-shrink: 0;
+}
+.memo2{
+    width: 192px;
+    height: 192px;
+}
+.memo3{
+    width: 254px;
+    height: 254px;
+}
+.memo4{
+    width: 192px;
+    height: 192px;
+    flex-shrink: 0;
+}
+h3{
+    color: var(--typo-black, #222);
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 37.8px */
+    text-transform: uppercase;
+}
+.ustal{
+    display: flex;
+}
+.info1{
+    width: 450px;
+    height: 506px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 226px; 
+    margin-left: 120px;
+    background: url(<path-to-image>), 50% / cover no-repeat;
+    color: var(--typo-black, #222);
+    /* text */
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 37.8px */
+}
+.info2{
+    height: 468px;
+    width: 432px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 52px;
+    gap: 10px;
+    margin-left: 120px;
+    background: url(<path-to-image>), 50% / cover no-repeat;
+    color: var(--typo-black, #222);
+    /* text */
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 37.8px */
+}
+.info3{
+    height: 468px;
+    width: 450px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 226px;
+    gap: 10px;
+    background: url(<path-to-image>), 50% / cover no-repeat;
+    color: var(--typo-black, #222);
+    /* text */
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 37.8px */
+}
+.info4{
+    height: 506px;
+    width: 477px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 90px;
+    gap: 10px;
+    background: url(<path-to-image>), 50% / cover no-repeat;
+    color: var(--typo-black, #222);
+    /* text */
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 37.8px */
+}
+.sect3{
+    padding: 0 calc(10vw - 13px);
+    margin-top: 300px;
+    height: 700px;
+    flex-shrink: 0;
+    background: #6E3ABA;
+}
+.ckidka{
+    text-align: center;
+    color: var(--typo-white, #FFF);
+    font-family: TT Hoves;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+}
+.noliki{
+    color: #2F1D4E;
+    font-family: Chava;
+    font-size: 174px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.5%; /* 187.05px */
+}
+.vrema{
+    display: flex;
+    right: 42%;
+    margin-top: 250px;
+    justify-content: space-evenly;
+}
+.vrema2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.slova2{
+    color: #2F1D4E;
+    text-align: center;
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.vvv{   
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.sect4 {
+    padding: 0 calc(10vw - 13px);
+    margin-top: 37px;
+}
+
+h2 {
+    color: var(--typo-black, #222);
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+
+.legend {
+    display: flex;
+    gap: 20px 51px;
+    flex-wrap: wrap;
+}
+
+.legendPhoto {
+    width: 100%;
+    max-width: 399px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.legendinfo {
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0;
+}
+
+p {
+    font-size: 27px;
+    line-height: 140%;
+}
+
+.legendinfo p {
+    margin-top: 20px;
+    max-width: 560px;
+}
+
+.skills {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px 90px;
+    margin-top: 90px;
+}
+
+.skill img {
+    width: 36px;
+    height: 36px;
+}
+
+.skill span {
+    display: block;
+    font-size: 21px;
+    line-height: 140%;
+}
